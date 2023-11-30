@@ -1,0 +1,494 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    margin-top: -10px;
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(im4.jpg);
+background-position: center;
+background-size: cover;
+position:  relative;
+}
+
+/* partie communauté */
+
+.commu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.commu p{
+    text-align: center;
+}
+.car2{
+width: 360px;
+}
+ .co2{
+  width: 400px;  
+ }
+ 
+ .co3{
+   width: 400px;
+  }
+ 
+  .commu1 h1{
+text-align: center;
+padding-bottom: 15px;
+  }
+  
+.commu h3{
+    text-align: center;
+}
+.nav1{
+   font-size: 25px;
+    height: 14vh;
+    background-color: brown;
+   
+}
+.bro{
+   margin-top: 50px; 
+}
+
+.head{
+    color: #fff;
+   padding-top: 200px;
+   font-size: 20px;
+}
+.head1{
+    padding-top: 100px;
+    display: flex;
+   justify-content: center;
+}
+
+.head2 img{
+width: 500px;
+}
+
+/* partie famille et ami */
+
+.sect-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sect2{
+    text-align: center;
+}
+
+.sec-1 img{
+width: 700px;
+}
+
+.sec-2 img{
+width: 600px;
+}
+.sec-1{
+text-align: center;
+}
+
+.sec-2{
+   text-align: center; 
+}
+
+
+/* experience */
+
+.sect3 h1{
+text-align: center;
+}
+
+.far{
+  padding-left: 330px;
+}
+/* 
+.exp{
+    width: 100%;
+}
+
+.fra{
+  width: 500px; 
+}  */
+
+.soc{
+    width: 500px;
+}
+
+.dog{
+    justify-content: center;
+}
+.one img{
+   
+}
+
+/* partie discution */
+
+.dis{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.dis1{
+    text-align: center; 
+}
+.dis h2{
+   color: brown;
+}
+.dis1 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.dir{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3% 3%;
+    background-color: rgb(103, 139, 30);
+}
+
+
+.dir2{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3% 3%;
+    background-color: rgb(103, 139, 30);
+}
+
+
+.dir3{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3% 3%;
+    background-color: rgb(103, 139, 30);
+}
+
+
+.da1{
+    font-size: 60px;
+    color: white;
+}
+
+
+.da2{
+    font-size: 60px;
+    color: white;
+}
+
+
+.da3{
+    font-size: 60px;
+    color: white;
+}
+
+/* patie notification et autre */
+
+
+.not{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+.docu h1{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+.not h2{
+    color: white;
+}
+
+.not p{
+    color: greenyellow;
+}
+
+.do1{
+    padding-bottom: 10px;
+    font-size: 45px;
+    color: darkred;
+}
+
+
+
+.not1{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4% 4%;
+    background-color: rgba(4,9,30,0.7);
+}
+
+
+
+.not2{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4% 4%;
+    background-color:rgba(4,9,30,0.7);
+}
+
+
+.not3{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 4% 4%;
+   background-color:  rgba(4,9,30,0.7);
+}
+
+.vau ul li a{
+text-decoration: none;
+}
+
+.vaut1 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.vaut ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.vaut2 button{
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: brown;
+    color: #fff;
+}
+
+.ya{
+    font-size: 30px;
+}
+
+
+/* partie connextion */
+
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(exper1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+     color: #fff;
+     margin-bottom: 40px;
+     padding: 0;
+}
+ .hero-btn{
+     color: #fff;
+     padding: 12px 27px;
+     background-color: #f44336;
+     text-decoration: none;
+     
+    
+ }
+ 
+ .ins h1{
+     text-align: center;
+     padding-bottom: 25px;
+     color: #f44336;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ .ins p {
+     text-align: center;
+     font-family: fantasy;
+     font-size: 1.5rem;
+ }
+ 
+ .ci{
+     padding-left: 400px;
+     padding-right: 400px;
+ }
+ 
+ .ci form button{
+     margin-left: 340px;
+ }
+
+/* responsive partie */
+@media screen and (max-width: 300px){
+   
+    
+    
+    .commu{
+        flex-direction: column;
+    }
+    
+    
+.commu p{
+   justify-content: center;
+}
+  
+    .sect-1{
+        flex-direction: column;
+    }
+    
+.sec-1 img{
+    width: 260px;
+    }
+    
+    .sec-2 img{
+    width: 260px;
+    }
+    
+    
+ .co2{
+    width: 260px;  
+   }
+   
+   .co3{
+     width: 260px;
+    }
+    
+    
+.car2{
+    width: 260px;
+    }
+    
+    .head1{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .head2 img{
+        width: 200px;
+    }
+    .head{
+        padding-top: 0px;
+        text-align: center;
+    }
+    
+    
+.nav1{
+    font-size: 15px;
+   
+ }
+
+.nav1 ul{
+    flex-direction: column;
+}
+
+.dis{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.far{
+    padding-left: 0px;
+    width: 100%;
+}
+
+/* service */
+
+.not{
+   
+  flex-direction: column;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+
+.cta{
+   
+  width: 100%;  
+  
+}
+
+
+.ci{
+  
+ padding-left: 0px; 
+padding-right: 0px;
+}
+
+
+.ci form button{
+''
+}
+
+
+
+}
+
+@media screen and (max-width: 264px) {
+    .nav1{
+        font-size: 10px;
+    }
+    
+    .commu p{
+        font-size: 20px;
+    }
+    .commu h3{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 251px){
+    
+      
+.sec-1 img{
+    width: 200px;
+    }
+    
+    .sec-2 img{
+    width: 200px;
+    }
+    
+    
+ .co2{
+    width: 200px;  
+   }
+   
+   .co3{
+     width: 200px;
+    }
+    
+    
+.car2{
+    width: 200px;
+    }
+    
+   
+}
+
+@media screen and (max-width: 225px){
+   .vaut2 input{
+       width: 100%;
+   } 
+}
+
+@media screen and (max-width: 990px){
+    
+   
+.ci{
+  
+    padding-left: 0px; 
+   padding-right: 0px;
+   }
+   
+   
+   .ci form button{
+       margin-left: 0px;
+   }
+    
+    
+    
+}
